@@ -24,6 +24,10 @@ jobs:
         java-version: ${{matrix.java}}
         distribution: 'adopt'
         cache: maven
+    - name: Set Version
+      run: echo "PACKAGE_VERSION=$(date +'%Y.%m.%d').$GITHUB_RUN_NUMBER" >> $GITHUB_ENV
+      shell: bash
+
     - name: Install maven-repository-aws-s3 dependencies
       run: |
         HOME=$(dirname $(readlink -f $(which mvn)))
@@ -35,7 +39,10 @@ jobs:
             --batch-mode \
             -DrepoUrl=https://repo.maven.apache.org/maven2 \
             -Dartifact=${dep} \
-            -DoutputDirectory=${HOME}/../lib
+            -DoutputDirectory=${HOME}/../lib \
+            -Dproject.versionNumber=${{ env.PACKAGE_VERSION }} \
+            -DskipTests=true \
+            -Dspring.profiles.active=mysql
         done
         
         ls -la "${HOME}/../lib"
