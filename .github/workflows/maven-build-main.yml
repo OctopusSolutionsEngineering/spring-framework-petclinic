@@ -52,6 +52,15 @@ jobs:
       run: 
         mvn clean package -DskipTests=true -Dspring.profiles.active=mysql -Dproject.versionNumber=${{ env.PACKAGE_VERSION }}
 
+    - name: Push war package to Maven Repository
+      uses: actions/setup-java@v4
+      with:
+          java-version: '11'
+          distribution: 'temurin'
+          architecture: x64
+    - name: Run maven build
+      run: mvn deploy:deploy-file --settings settings.xml -DgroupId=com.octopus -DartifactId=petclinic.web -Dversion=${{ env.PACKAGE_VERSION }} -Dpackaging=war -Dfile=/spring-framework-petclinic/target/petclinic.web.${{ env.PACKAGE_VERSION }}.zip -DrepositoryId=octopus-sales-public-snapshot -Durl=s3://octopus-sales-public-maven-repo/snapshot      
+
     - name: Create settings.xml
       shell: pwsh
       run: |
@@ -82,16 +91,9 @@ jobs:
               </server>
           </servers>
           </settings>
-        "@        
+        "@
 
-    - name: Push war package to Maven Repository
-      uses: actions/setup-java@v4
-      with:
-          java-version: '11'
-          distribution: 'temurin'
-          architecture: x64
-    - name: Run maven build
-      run: mvn deploy:deploy-file --settings settings.xml -DgroupId=com.octopus -DartifactId=petclinic.web -Dversion=${{ env.PACKAGE_VERSION }} -Dpackaging=war -Dfile=/spring-framework-petclinic/target/petclinic.web.${{ env.PACKAGE_VERSION }}.zip -DrepositoryId=octopus-sales-public-snapshot -Durl=s3://octopus-sales-public-maven-repo/snapshot      
+          Set-Content -Path "settings.xml" -Value $fileContent
 
 
     - name: Zip files
@@ -101,8 +103,6 @@ jobs:
           dest: petclinic.mysql.flyway.${{ env.PACKAGE_VERSION }}.zip
 
 
-
-          Set-Content -Path "settings.xml" -Value $fileContent
     - name: Write pom.xml
       shell: pwsh
       run: |
