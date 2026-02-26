@@ -182,4 +182,6 @@ jobs:
           distribution: 'temurin'
           architecture: x64
     - name: Run maven build
-      run: mvn deploy:deploy-file --settings settings.xml -DgroupId=com.octopus -DartifactId=petclinic.web -Dproject.versionNumber=${{ env.PACKAGE_VERSION }} -Dfile=target/petclinic.web.${{ env.PACKAGE_VERSION }}.war -DrepositoryId=octopus-sales-public-snapshot -Durl=s3://octopus-sales-public-maven-repo/snapshot      
+      run: |
+        cp target/petclinic.web.${{ env.PACKAGE_VERSION }}.war petclinic.web.${{ env.PACKAGE_VERSION }}.war
+        mvn deploy:deploy-file --settings settings.xml -DgroupId=com.octopus -DartifactId=petclinic.web -Dproject.versionNumber=${{ env.PACKAGE_VERSION }} -Dfile=petclinic.web.${{ env.PACKAGE_VERSION }}.war -DrepositoryId=octopus-sales-public-snapshot -Durl=s3://octopus-sales-public-maven-repo/snapshot      
