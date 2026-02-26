@@ -59,7 +59,7 @@ jobs:
           distribution: 'temurin'
           architecture: x64
     - name: Run maven build
-      run: mvn deploy:deploy-file --settings settings.xml -DgroupId=com.octopus -DartifactId=petclinic.web -Dversion=${{ env.PACKAGE_VERSION }} -Dpackaging=war -Dfile=petclinic.web.${{ env.PACKAGE_VERSION }}.zip -DrepositoryId=octopus-sales-public-snapshot -Durl=s3://octopus-sales-public-maven-repo/snapshot      
+      run: mvn deploy:deploy-file --settings settings.xml -DgroupId=com.octopus -DartifactId=petclinic.web -Dversion=${{ env.PACKAGE_VERSION }} -Dpackaging=war -Dfile=/spring-framework-petclinic/target/petclinic.web.${{ env.PACKAGE_VERSION }}.zip -DrepositoryId=octopus-sales-public-snapshot -Durl=s3://octopus-sales-public-maven-repo/snapshot      
 
 
     - name: Zip files
