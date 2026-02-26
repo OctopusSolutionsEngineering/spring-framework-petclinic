@@ -86,14 +86,6 @@ jobs:
 
           Set-Content -Path "settings.xml" -Value $fileContent        
 
-    - name: Push war package to Maven Repository
-      uses: actions/setup-java@v4
-      with:
-          java-version: '11'
-          distribution: 'temurin'
-          architecture: x64
-    - name: Run maven build
-      run: mvn deploy:deploy-file --settings settings.xml -DgroupId=com.octopus -DartifactId=petclinic.web -Dproject.versionNumber=${{ env.PACKAGE_VERSION }} -Dfile=target/petclinic.web.${{ env.PACKAGE_VERSION }}.war -DrepositoryId=octopus-sales-public-snapshot -Durl=s3://octopus-sales-public-maven-repo/snapshot      
 
 
     - name: Zip files
@@ -147,3 +139,47 @@ jobs:
     - name: Run maven build
       run: mvn deploy:deploy-file --settings settings.xml -DgroupId=com.octopus -DartifactId=petclinic.mysql.flyway -Dversion=${{ env.PACKAGE_VERSION }} -Dpackaging=zip -Dfile=petclinic.mysql.flyway.${{ env.PACKAGE_VERSION }}.zip -DrepositoryId=octopus-sales-public-snapshot -Durl=s3://octopus-sales-public-maven-repo/snapshot
 
+    - name: Write pom.xml
+      shell: pwsh
+      run: |
+        Write-Host "Creating pom.xml file"
+        
+        $fileContent = 
+        @"
+        <project>
+            <groupId>com.octopus</groupId>
+            <artifactId>petclinic.web</artifactId>
+            <version>${{ env.PACKAGE_VERSION }}</version>
+            <modelVersion>4.0.0</modelVersion>
+            <build>
+                <extensions>
+                    <extension>
+                        <groupId>com.github.seahen</groupId>
+                        <artifactId>maven-s3-wagon</artifactId>
+                        <version>1.3.3</version>
+                    </extension>
+                </extensions>
+            </build>
+            <distributionManagement>
+                <repository>
+                    <id>maven.nuvalence.repo</id>
+                    <url>s3://octopus-sales-public-maven-repo/snapshot</url>
+                </repository>
+                <snapshotRepository>
+                    <id>maven.nuvalence.repo</id>
+                    <url>s3://octopus-sales-public-maven-repo/snapshot</url>
+                </snapshotRepository>
+            </distributionManagement>
+        </project>
+        "@
+        
+        Set-Content -Path pom.xml -Value $fileContent
+
+    - name: Push war package to Maven Repository
+      uses: actions/setup-java@v4
+      with:
+          java-version: '11'
+          distribution: 'temurin'
+          architecture: x64
+    - name: Run maven build
+      run: mvn deploy:deploy-file --settings settings.xml -DgroupId=com.octopus -DartifactId=petclinic.web -Dproject.versionNumber=${{ env.PACKAGE_VERSION }} -Dfile=target/petclinic.web.${{ env.PACKAGE_VERSION }}.war -DrepositoryId=octopus-sales-public-snapshot -Durl=s3://octopus-sales-public-maven-repo/snapshot      
