@@ -191,6 +191,7 @@ jobs:
       env:
         OCTOPUS_URL: ${{ secrets.DEMO_OCTOPUS_URL }}
         OCTOPUS_API_KEY: ${{ secrets.DEMO_OCTOPUS_API_KEY }}
+        OCTOPUS_SPACE: "TechCon"
       id: push_build_information_to_octopus_deploy
       uses: OctopusDeploy/push-build-information-action@v4
       with:
