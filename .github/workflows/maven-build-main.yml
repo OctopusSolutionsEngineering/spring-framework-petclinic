@@ -200,12 +200,12 @@ jobs:
           com.octopus:petclinic.web
         version: "${{ env.PACKAGE_VERSION }}" 
 
-    - name: Push build information to Octopus Deploy 🐙
+    - name: Push build information to Demo Template Space 🐙
       env:
         OCTOPUS_URL: ${{ secrets.DEMO_OCTOPUS_URL }}
         OCTOPUS_API_KEY: ${{ secrets.DEMO_OCTOPUS_API_KEY }}
         OCTOPUS_SPACE: "Demo Template"
-      id: push_build_information_to_octopus_deploy
+      id: push_build_information_to_octopus_deploy_demo_template
       uses: OctopusDeploy/push-build-information-action@v4
       with:
         packages: |
