@@ -199,3 +199,16 @@ jobs:
           com.octopus:petclinic.mysql.flyway
           com.octopus:petclinic.web
         version: "${{ env.PACKAGE_VERSION }}" 
+
+    - name: Push build information to Octopus Deploy 🐙
+      env:
+        OCTOPUS_URL: ${{ secrets.DEMO_OCTOPUS_URL }}
+        OCTOPUS_API_KEY: ${{ secrets.DEMO_OCTOPUS_API_KEY }}
+        OCTOPUS_SPACE: "Demo Template"
+      id: push_build_information_to_octopus_deploy
+      uses: OctopusDeploy/push-build-information-action@v4
+      with:
+        packages: |
+          com.octopus:petclinic.mysql.flyway
+          com.octopus:petclinic.web
+        version: "${{ env.PACKAGE_VERSION }}"         
