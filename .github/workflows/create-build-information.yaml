@@ -19,7 +19,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GIT_CREDENTIAL }}
+          token: ${{ secrets.GHA_BUILD_ACCOUNT_PAT }}
 
       - name: Create New Branch
         run: |
@@ -55,7 +55,7 @@ jobs:
 
             # 33 chance of prepending a ticket number
             if (( RANDOM % 3 == 0 )); then
-              TICKET="[OC-$(( RANDOM % 3 + 1 ))] "
+              TICKET="[PET-$(( RANDOM % 3 + 1 ))] "
             else
               TICKET=""
             fi
