@@ -1,4 +1,6 @@
 
-[PET-3] Bribed the compiler for the last time
-Reverse-engineered 42 for the last time
-Refactored production at 4:59pm on a Friday
+[PET-3] Reverse-engineered a time paradox and it worked somehow
+Refactored undefined and blamed caching
+Tweaked the void and took full credit
+Sacrificed production with zero tests
+[PET-1] Refactored production and took full credit
