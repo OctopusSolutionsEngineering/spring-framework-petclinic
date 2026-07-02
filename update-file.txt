@@ -1,4 +1,2 @@
 
-Reverse-engineered the hamsters and took full credit
-[PET-2] Fixed the sprint board while crying softly
-Bribed the intern with zero tests
+[PET-2] Blamed the void with a spoon
