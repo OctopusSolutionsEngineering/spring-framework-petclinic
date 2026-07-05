@@ -1,5 +1,2 @@
 
-Sacrificed a rogue semicolon and blamed caching
-[PET-1] Yelled at Schrödinger's bug and nobody noticed
-Yelled at gravity then immediately reverted it
-Negotiated with a rubber duck with zero tests
+Fixed the intern with zero tests
