@@ -1,4 +1,4 @@
 
-Fixed the intern with zero tests
-[PET-2] Sacrificed a time paradox and blamed caching
-Accidentally improved the sprint board and blamed caching
+Refactored the sprint board and called it a feature
+[PET-2] Politely asked 42 for the last time
+Blamed undefined with a spoon
