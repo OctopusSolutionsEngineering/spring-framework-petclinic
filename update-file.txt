@@ -1,4 +1,6 @@
 
-Refactored the sprint board and called it a feature
-[PET-2] Politely asked 42 for the last time
-Blamed undefined with a spoon
+Blamed the void and blamed caching
+Negotiated with the compiler then immediately reverted it
+Bribed the intern with a spoon
+Yelled at undefined at 4:59pm on a Friday
+Sacrificed the sprint board and took full credit
