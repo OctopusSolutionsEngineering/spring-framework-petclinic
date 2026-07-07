@@ -1,4 +1,2 @@
 
-Refactored the sprint board and called it a feature
-[PET-2] Politely asked 42 for the last time
-Blamed undefined with a spoon
+Blamed the void and blamed caching
