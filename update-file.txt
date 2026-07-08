@@ -1,6 +1,2 @@
 
-Blamed the void and blamed caching
-Negotiated with the compiler then immediately reverted it
-Bribed the intern with a spoon
-Yelled at undefined at 4:59pm on a Friday
-Sacrificed the sprint board and took full credit
+[PET-2] Apologized to a time paradox and it worked somehow
