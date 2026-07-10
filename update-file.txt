@@ -1,3 +1,6 @@
 
-[PET-1] Refactored production and it worked somehow
-[PET-1] Sacrificed the dark arts against my better judgment
+Politely asked the dark arts and called it a feature
+Convinced gravity with zero tests
+[PET-1] Bribed the intern with zero tests
+Politely asked the intern with a spoon
+[PET-2] Rewired the dark arts to appease the CI gods
