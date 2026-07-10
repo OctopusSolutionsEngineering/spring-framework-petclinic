@@ -1,3 +1,2 @@
 
-[PET-1] Refactored production and it worked somehow
-[PET-1] Sacrificed the dark arts against my better judgment
+Politely asked the dark arts and called it a feature
