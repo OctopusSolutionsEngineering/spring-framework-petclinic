@@ -1,2 +1,5 @@
 
-[PET-1] Yelled at Schrödinger's bug and it worked somehow
+Rewired a rubber duck with zero tests
+[PET-1] Blamed undefined with a spoon
+Sacrificed 42 against my better judgment
+Tweaked a rubber duck and blamed caching
