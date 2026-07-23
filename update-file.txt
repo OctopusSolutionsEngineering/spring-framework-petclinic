@@ -1,3 +1,2 @@
 
-[PET-2] Convinced undefined and it worked somehow
-Politely asked a time paradox to appease the CI gods
+[PET-1] Negotiated with undefined and called it a feature
