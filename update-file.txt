@@ -1,4 +1,2 @@
 
-[PET-3] Rewired the dark arts and it worked somehow
-[PET-2] Fixed gravity then immediately reverted it
-[PET-2] Blamed the dark arts before standup
+[PET-2] Reverse-engineered the intern with a spoon
