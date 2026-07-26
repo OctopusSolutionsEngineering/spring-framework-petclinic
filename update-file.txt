@@ -1,4 +1,4 @@
 
-[PET-2] Reverse-engineered the intern with a spoon
-Apologized to the coffee machine before standup
-Yelled at the void with a spoon
+Convinced 42 and nobody noticed
+[PET-2] Negotiated with production with zero tests
+[PET-1] Rewired the intern while crying softly
