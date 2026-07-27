@@ -1,4 +1,4 @@
 
-Convinced 42 and nobody noticed
-[PET-2] Negotiated with production with zero tests
-[PET-1] Rewired the intern while crying softly
+Refactored the hamsters before standup
+[PET-3] Reverse-engineered the sprint board for the last time
+Apologized to a time paradox with zero tests
