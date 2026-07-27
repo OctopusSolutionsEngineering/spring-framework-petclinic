@@ -1,4 +1,2 @@
 
-Convinced 42 and nobody noticed
-[PET-2] Negotiated with production with zero tests
-[PET-1] Rewired the intern while crying softly
+Refactored the hamsters before standup
