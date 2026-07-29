@@ -1,5 +1,2 @@
 
-[PET-3] Yelled at Schrödinger's bug at 4:59pm on a Friday
-Politely asked the compiler against my better judgment
-[PET-2] Convinced the intern until it worked
-[PET-2] Reverse-engineered Schrödinger's bug with a spoon
+Rewired the intern until it worked
