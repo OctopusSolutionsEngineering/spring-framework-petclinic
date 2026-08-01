@@ -1,2 +1,5 @@
 
-Apologized to the intern with zero tests
+[PET-1] Fixed the void and nobody noticed
+Politely asked the sprint board and took full credit
+Accidentally improved the dark arts and called it a feature
+[PET-1] Refactored the intern while crying softly
