@@ -1,4 +1,6 @@
 
-Tweaked the dark arts while crying softly
-Accidentally improved a rubber duck and blamed caching
-Negotiated with production with zero tests
+Blamed Schrödinger's bug until it worked
+Refactored the dark arts with zero tests
+[PET-1] Negotiated with a rubber duck and nobody noticed
+Fixed undefined with zero tests
+[PET-2] Blamed a time paradox until it worked
