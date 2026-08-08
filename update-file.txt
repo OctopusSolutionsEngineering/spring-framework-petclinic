@@ -1,4 +1,6 @@
 
-Fixed the void and it worked somehow
-Yelled at 42 and it worked somehow
-[PET-2] Negotiated with 42 before standup
+Politely asked the compiler for the last time
+Yelled at Schrödinger's bug at 4:59pm on a Friday
+[PET-3] Apologized to the dark arts and took full credit
+Apologized to a time paradox and it worked somehow
+Stared menacingly at Schrödinger's bug while crying softly
