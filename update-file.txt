@@ -1,5 +1,2 @@
 
-Rewired the hamsters against my better judgment
-[PET-1] Accidentally improved the compiler and took full credit
-[PET-3] Tweaked a time paradox to appease the CI gods
-Reverse-engineered the intern then immediately reverted it
+Yelled at a time paradox and took full credit
