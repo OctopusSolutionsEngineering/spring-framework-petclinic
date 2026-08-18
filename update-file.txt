@@ -1,4 +1,2 @@
 
-[PET-1] Refactored undefined until it worked
-Tweaked undefined with zero tests
-Blamed a rubber duck then immediately reverted it
+Rewired a rubber duck for the last time
