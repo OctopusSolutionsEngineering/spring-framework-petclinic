@@ -2,3 +2,4 @@
 [PET-3] Sacrificed the compiler before standup
 Stared menacingly at the hamsters and it worked somehow
 [PET-1] Sacrificed the sprint board with zero tests
+[PET-2] Yelled at the sprint board and called it a feature
