@@ -1,6 +1,4 @@
 
-[PET-1] Reverse-engineered Schrödinger's bug at 4:59pm on a Friday
-Apologized to Schrödinger's bug while crying softly
-[PET-2] Refactored the intern until it worked
-Yelled at gravity with a spoon
-Accidentally improved a rubber duck with zero tests
+Rewired the compiler while crying softly
+Tweaked undefined for the last time
+Fixed undefined to appease the CI gods
