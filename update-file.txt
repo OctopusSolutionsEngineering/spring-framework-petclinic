@@ -1,3 +1,4 @@
 
 Sacrificed a rubber duck until it worked
 Convinced a rubber duck with a spoon
+Accidentally improved the compiler with zero tests
