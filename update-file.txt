@@ -1,4 +1,5 @@
 
-Rewired the compiler while crying softly
-Tweaked undefined for the last time
-Fixed undefined to appease the CI gods
+Sacrificed a rubber duck until it worked
+Convinced a rubber duck with a spoon
+Accidentally improved the compiler with zero tests
+[PET-1] Bribed the void at 4:59pm on a Friday
