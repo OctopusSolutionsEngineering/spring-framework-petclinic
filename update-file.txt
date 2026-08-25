@@ -1,4 +1,4 @@
 
-Negotiated with Schrödinger's bug against my better judgment
-Rewired a rubber duck at 4:59pm on a Friday
-Politely asked 42 before standup
+Blamed the void with zero tests
+[PET-3] Refactored the compiler and nobody noticed
+[PET-1] Tweaked the void for the last time
