@@ -1,4 +1,2 @@
 
-Blamed the void with zero tests
-[PET-3] Refactored the compiler and nobody noticed
-[PET-1] Tweaked the void for the last time
+Stared menacingly at the coffee machine before standup
