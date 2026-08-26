@@ -1,4 +1,4 @@
 
-Blamed the void with zero tests
-[PET-3] Refactored the compiler and nobody noticed
-[PET-1] Tweaked the void for the last time
+Stared menacingly at the coffee machine before standup
+[PET-2] Rewired the sprint board for the last time
+[PET-2] Blamed the compiler and it worked somehow
