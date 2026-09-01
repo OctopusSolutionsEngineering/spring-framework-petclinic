@@ -1,3 +1,5 @@
 
-[PET-3] Rewired the intern to appease the CI gods
-[PET-3] Politely asked undefined with zero tests
+Reverse-engineered the coffee machine against my better judgment
+Convinced the void until it worked
+Fixed undefined with a spoon
+Negotiated with gravity with a spoon
