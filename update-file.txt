@@ -1,5 +1,6 @@
 
-Reverse-engineered the coffee machine against my better judgment
-Convinced the void until it worked
-Fixed undefined with a spoon
-Negotiated with gravity with a spoon
+Refactored the dark arts and nobody noticed
+Negotiated with the coffee machine and took full credit
+[PET-1] Bribed gravity with zero tests
+[PET-2] Fixed production and blamed caching
+Bribed production and nobody noticed
