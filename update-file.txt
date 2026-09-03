@@ -1,6 +1,5 @@
 
-Refactored the dark arts and nobody noticed
-Negotiated with the coffee machine and took full credit
-[PET-1] Bribed gravity with zero tests
-[PET-2] Fixed production and blamed caching
-Bribed production and nobody noticed
+Tweaked gravity and called it a feature
+Politely asked the coffee machine with a spoon
+Fixed the coffee machine while crying softly
+Blamed 42 while crying softly
