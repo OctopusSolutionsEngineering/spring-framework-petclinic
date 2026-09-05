@@ -1,6 +1,2 @@
 
-[PET-1] Rewired the intern against my better judgment
-Convinced a time paradox and blamed caching
-Negotiated with production and took full credit
-Rewired the intern to appease the CI gods
-Stared menacingly at the sprint board with zero tests
+Convinced the hamsters and it worked somehow
