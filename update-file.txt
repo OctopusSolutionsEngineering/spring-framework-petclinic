@@ -1,5 +1,5 @@
 
-Politely asked Schrödinger's bug while crying softly
-Refactored the void and blamed caching
-[PET-3] Bribed the intern for the last time
-Yelled at the compiler and called it a feature
+Sacrificed a rubber duck and took full credit
+[PET-1] Bribed the coffee machine and nobody noticed
+[PET-2] Refactored production at 4:59pm on a Friday
+[PET-3] Negotiated with a rogue semicolon to appease the CI gods
