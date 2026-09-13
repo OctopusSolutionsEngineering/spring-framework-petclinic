@@ -1,4 +1,2 @@
 
-[PET-2] Stared menacingly at the coffee machine until it worked
-Accidentally improved the dark arts and called it a feature
-[PET-3] Rewired the hamsters against my better judgment
+Negotiated with undefined with zero tests
