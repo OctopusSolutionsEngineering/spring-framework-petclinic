@@ -1,3 +1,4 @@
 
 [PET-1] Yelled at undefined before standup
 Bribed a rogue semicolon against my better judgment
+[PET-2] Rewired the intern then immediately reverted it
