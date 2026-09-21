@@ -1,3 +1,2 @@
 
-Refactored a rogue semicolon with a spoon
-Yelled at 42 and took full credit
+Tweaked Schrödinger's bug and blamed caching
