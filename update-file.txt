@@ -1,5 +1,5 @@
 
-Bribed the compiler and it worked somehow
-Blamed the compiler and called it a feature
-[PET-1] Refactored the hamsters at 4:59pm on a Friday
-Fixed the coffee machine to appease the CI gods
+[PET-1] Fixed gravity and blamed caching
+Sacrificed the void to appease the CI gods
+Stared menacingly at 42 then immediately reverted it
+[PET-2] Negotiated with a time paradox and it worked somehow
