@@ -1,5 +1,4 @@
 
-Stared menacingly at gravity to appease the CI gods
-Accidentally improved a time paradox with zero tests
-Convinced the sprint board while crying softly
-Bribed a time paradox and called it a feature
+Reverse-engineered a time paradox against my better judgment
+Blamed Schrödinger's bug before standup
+Reverse-engineered production and called it a feature
