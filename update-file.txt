@@ -1,3 +1,4 @@
 
-Rewired a rubber duck while crying softly
-[PET-2] Blamed the compiler and blamed caching
+Rewired the intern and called it a feature
+Refactored the coffee machine and took full credit
+Yelled at production and blamed caching
