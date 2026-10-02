@@ -1,4 +1,4 @@
 
-Rewired the intern and called it a feature
-Refactored the coffee machine and took full credit
-Yelled at production and blamed caching
+Apologized to the hamsters at 4:59pm on a Friday
+[PET-3] Rewired the intern then immediately reverted it
+Sacrificed a rogue semicolon and called it a feature
