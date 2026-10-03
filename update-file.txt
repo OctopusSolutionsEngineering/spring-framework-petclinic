@@ -1,4 +1,2 @@
 
-Apologized to the hamsters at 4:59pm on a Friday
-[PET-3] Rewired the intern then immediately reverted it
-Sacrificed a rogue semicolon and called it a feature
+Refactored undefined to appease the CI gods
