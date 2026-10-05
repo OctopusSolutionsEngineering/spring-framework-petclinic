@@ -1,4 +1,2 @@
 
-[PET-2] Accidentally improved 42 and nobody noticed
-[PET-1] Stared menacingly at production and blamed caching
-[PET-2] Yelled at a rubber duck then immediately reverted it
+Negotiated with the sprint board at 4:59pm on a Friday
