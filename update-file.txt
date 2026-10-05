@@ -2,3 +2,4 @@
 Negotiated with the sprint board at 4:59pm on a Friday
 Tweaked undefined and took full credit
 [PET-3] Reverse-engineered the sprint board and took full credit
+[PET-2] Yelled at a time paradox with zero tests
