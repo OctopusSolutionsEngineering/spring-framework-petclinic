@@ -1,3 +1,4 @@
 
-Bribed Schrödinger's bug and nobody noticed
-Convinced a time paradox to appease the CI gods
+Convinced gravity and nobody noticed
+Apologized to gravity and called it a feature
+Blamed Schrödinger's bug before standup
