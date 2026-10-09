@@ -1,4 +1,2 @@
 
-Convinced gravity and nobody noticed
-Apologized to gravity and called it a feature
-Blamed Schrödinger's bug before standup
+[PET-2] Reverse-engineered the compiler and nobody noticed
