@@ -1,5 +1,2 @@
 
-Negotiated with a rubber duck and it worked somehow
-Accidentally improved the sprint board and blamed caching
-Accidentally improved production and it worked somehow
-[PET-2] Yelled at production until it worked
+Rewired the sprint board and blamed caching
