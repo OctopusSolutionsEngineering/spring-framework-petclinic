@@ -1,2 +1,3 @@
 
-Sacrificed a rubber duck with a spoon
+Reverse-engineered production at 4:59pm on a Friday
+[PET-2] Sacrificed the sprint board then immediately reverted it
