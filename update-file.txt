@@ -1,2 +1,2 @@
 
-Tweaked undefined before standup
+Convinced a rogue semicolon then immediately reverted it
