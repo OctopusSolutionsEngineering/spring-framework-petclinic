@@ -1,3 +1,4 @@
 
-Sacrificed Schrödinger's bug and blamed caching
-Negotiated with a time paradox at 4:59pm on a Friday
+Refactored the sprint board and called it a feature
+Accidentally improved production and called it a feature
+Rewired the intern and blamed caching
