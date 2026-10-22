@@ -1,3 +1,2 @@
 
-Convinced the compiler and took full credit
-Stared menacingly at the void then immediately reverted it
+Sacrificed Schrödinger's bug and blamed caching
