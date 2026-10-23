@@ -1,4 +1,2 @@
 
-Refactored the sprint board and called it a feature
-Accidentally improved production and called it a feature
-Rewired the intern and blamed caching
+Fixed Schrödinger's bug until it worked
