@@ -1,3 +1,4 @@
 
 Rewired undefined and nobody noticed
 Bribed a rogue semicolon then immediately reverted it
+Stared menacingly at a rogue semicolon until it worked
