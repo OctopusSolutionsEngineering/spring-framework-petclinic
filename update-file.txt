@@ -1,5 +1,2 @@
 
-Rewired undefined and nobody noticed
-Bribed a rogue semicolon then immediately reverted it
-Stared menacingly at a rogue semicolon until it worked
-Blamed the coffee machine with zero tests
+Fixed Schrödinger's bug at 4:59pm on a Friday
