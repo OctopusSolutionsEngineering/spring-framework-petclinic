@@ -1,2 +1,2 @@
 
-Fixed Schrödinger's bug at 4:59pm on a Friday
+[PET-3] Bribed undefined then immediately reverted it
