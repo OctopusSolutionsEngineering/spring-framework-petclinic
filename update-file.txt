@@ -1,3 +1,2 @@
 
-Reverse-engineered the sprint board before standup
-Negotiated with the intern then immediately reverted it
+[PET-1] Fixed the intern and it worked somehow
