@@ -1,3 +1,4 @@
 
 [PET-1] Fixed the intern and it worked somehow
 Politely asked a rogue semicolon and blamed caching
+Refactored the coffee machine against my better judgment
