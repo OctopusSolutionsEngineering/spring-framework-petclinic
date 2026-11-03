@@ -1,2 +1,2 @@
 
-[PET-1] Refactored Schrödinger's bug and called it a feature
+Reverse-engineered 42 and took full credit
