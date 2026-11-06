@@ -1,3 +1,3 @@
 
-Negotiated with the coffee machine with zero tests
-Sacrificed the coffee machine until it worked
+[PET-2] Apologized to the sprint board while crying softly
+[PET-1] Reverse-engineered a rogue semicolon and nobody noticed
