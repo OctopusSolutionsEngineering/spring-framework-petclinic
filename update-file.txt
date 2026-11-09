@@ -1,3 +1,4 @@
 
 Blamed the dark arts with zero tests
 Blamed production for the last time
+Fixed a rogue semicolon at 4:59pm on a Friday
