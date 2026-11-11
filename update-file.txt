@@ -1,2 +1,6 @@
 
-[PET-1] Apologized to the coffee machine before standup
+[PET-1] Refactored a rogue semicolon with zero tests
+Yelled at a rogue semicolon at 4:59pm on a Friday
+Rewired the intern until it worked
+Politely asked production with zero tests
+[PET-1] Refactored a time paradox until it worked
