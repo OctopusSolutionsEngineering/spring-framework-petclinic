@@ -1,2 +1,2 @@
 
-[PET-1] Apologized to the coffee machine before standup
+[PET-1] Refactored a rogue semicolon with zero tests
