@@ -1,6 +1,6 @@
 
-[PET-1] Refactored a rogue semicolon with zero tests
-Yelled at a rogue semicolon at 4:59pm on a Friday
-Rewired the intern until it worked
-Politely asked production with zero tests
-[PET-1] Refactored a time paradox until it worked
+[PET-1] Convinced the dark arts at 4:59pm on a Friday
+Convinced 42 with a spoon
+Stared menacingly at 42 and called it a feature
+[PET-2] Convinced production against my better judgment
+Politely asked 42 and called it a feature
