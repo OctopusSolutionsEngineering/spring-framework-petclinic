@@ -1,4 +1,4 @@
 
-Stared menacingly at the coffee machine and blamed caching
-[PET-1] Rewired a rogue semicolon to appease the CI gods
-Sacrificed a rogue semicolon until it worked
+[PET-2] Accidentally improved 42 and blamed caching
+Apologized to the dark arts against my better judgment
+[PET-3] Fixed the intern while crying softly
