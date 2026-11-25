@@ -1,3 +1,4 @@
 
-[PET-1] Politely asked undefined and nobody noticed
-Fixed undefined with a spoon
+[PET-3] Convinced a rubber duck and took full credit
+Sacrificed undefined before standup
+Negotiated with Schrödinger's bug and took full credit
